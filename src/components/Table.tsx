@@ -3,20 +3,20 @@ function Table() {
     <div className="relative">
       <table className="w-full text-sm text-left">
         <thead className="text-xs">
-          <tr className="bg-[#F2F2F2] rounded-md">
-            <th scope="col" className="px-6 py-3">
+          <tr className="bg-[#F2F2F2]">
+            <th scope="col" className="px-6 py-3 rounded-l-lg">
               Order ID
             </th>
-            <th scope="col" className="px-6 py-3">
+            <th scope="col" className="px-6 py-3 ">
               Status
             </th>
-            <th scope="col" className="px-6 py-3">
+            <th scope="col" className="px-6 py-3 ">
               Transaction ID
             </th>
-            <th scope="col" className="px-6 py-3">
+            <th scope="col" className="px-6 py-3 ">
               Refund Date
             </th>
-            <th scope="col" className="px-6 py-3">
+            <th scope="col" className="px-6 py-3 rounded-r-lg">
               Order Amount
             </th>
           </tr>
